@@ -1,0 +1,47 @@
+.container-fluid{
+  background-color: rgb(77, 104, 5);
+  padding: 20px 30px;
+}
+.col-md-4.logo{
+text-align: center;
+color:#fff;
+}
+.updatabtn{
+margin-left: 15px;
+}
+.menust{
+  text-align: right;
+  padding: 9px 0px 0px 0px;
+}
+.col-md-8 a{
+  text-decoration: none;
+  font-size: 18px;
+  color:#fff;
+  transition: .4s;
+  padding: 30px 30px;
+}
+.col-md-8 a:hover{
+  color: #ec6100;
+}
+.col-md-4.form{
+  margin-top: 20px;
+}
+.col-md-4.form h1{
+  padding: 30px 0px;
+  color: #a52a2a;
+}
+Table{
+  text-align: center;
+}
+.error{
+  color: red;
+}
+.home-wr h1{
+  text-align: center;
+  padding: 20px 20px;
+  color: #a52a2a;
+}
+.home-data p{
+  padding: 20px 95px;
+  line-height: 28px;
+}
