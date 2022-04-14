@@ -7,6 +7,7 @@ import ApplicationForm from './component/ApplicationForm';
 import PageNotFound from './component/PageNotFound';
 import List from './component/List';
 import 'react-toastify/dist/ReactToastify.css';
+import Test from './component/Test';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
         component={ApplicationForm} />   
         <Route path="/list">
           <List/>
+        </Route>
+        <Route path="/test">
+          <Test />
         </Route>
         <Route path="*" exact={true}>
         <PageNotFound/>

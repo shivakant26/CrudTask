@@ -6,6 +6,7 @@ export class Menu extends Component {
             <Link to="/">Home</Link>
             <Link to="/form">ApplicationForm</Link>
             <Link to="/list">List</Link>
+            <Link to="/test">Test</Link>
     </div>;
   }
 }

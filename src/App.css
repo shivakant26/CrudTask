@@ -45,3 +45,24 @@ Table{
   padding: 20px 95px;
   line-height: 28px;
 }
+
+.main_Wr{
+  position: relative;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+.cmp-heading::before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: #29ad08;
+  width: 297px
+}
+.cmp-heading::after{
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: #29ad08;
+  width: 297px
+}
